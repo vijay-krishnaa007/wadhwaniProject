@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreateHub - Turn Knowledge into Income</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to bottom, #eff6ff, #ffffff);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-size: 1.1rem;
+    }
+    .btn {
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn:hover {
+      background: #1e40af;
+    }
+    .section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .testimonials {
+      background: #eff6ff;
+    }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .price-card {
+      background: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .highlight {
+      background: #2563eb;
+      color: white;
+    }
+    .cta {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #2563eb, #1e3a8a);
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Turn Your Knowledge into Income</h1>
+    <p>Share your expertise by creating and selling online courses, digital products, and content—all in one place.</p>
+    <button class="btn">Start Free Today</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section">
+    <div class="features">
+      <div class="card">
+        <h3>🎥 Easy Course Builder</h3>
+        <p>Upload videos, PDFs, quizzes, and more with no tech skills required.</p>
+      </div>
+      <div class="card">
+        <h3>💳 Monetization Tools</h3>
+        <p>Accept payments worldwide, set pricing, and run promotions.</p>
+      </div>
+      <div class="card">
+        <h3>📊 Analytics Dashboard</h3>
+        <p>Track sales, engagement, and student progress.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 Global Reach</h3>
+        <p>Share your knowledge with learners everywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials">
+    <h2 style="text-align:center; font-size:2rem; font-weight:bold; margin-bottom:40px;">What Our Creators Say</h2>
+    <div class="testimonials-grid">
+      <div class="card">
+        <p><em>“I launched my first course in a week! CreateHub made it so simple to share my skills and earn money.”</em></p>
+        <p><strong>– Anjali, Content Creator</strong></p>
+      </div>
+      <div class="card">
+        <p><em>“The analytics help me see exactly where my students struggle, so I can improve my content.”</em></p>
+        <p><strong>– Rahul, Educator</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section">
+    <h2 style="text-align:center; font-size:2rem; font-weight:bold; margin-bottom:40px;">Simple Pricing</h2>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Free Plan</h3>
+        <p>Start with unlimited courses, pay only transaction fees.</p>
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="price-card highlight">
+        <h3>Pro Plan</h3>
+        <p>$19/month – Advanced analytics, custom branding, email marketing.</p>
+        <button class="btn" style="background:white; color:#2563eb;">Upgrade Now</button>
+      </div>
+      <div class="price-card">
+        <h3>Business Plan</h3>
+        <p>$49/month – Team accounts, priority support, API integrations.</p>
+        <button class="btn">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta">
+    <h2 style="font-size:2.5rem; margin-bottom:20px;">Ready to share your knowledge with the world?</h2>
+    <button class="btn" style="background:white; color:#2563eb;">Get Started Now</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © <script>document.write(new Date().getFullYear())</script> EduQuest. All rights reserved.
+  </footer>
+</body>
+</html>
